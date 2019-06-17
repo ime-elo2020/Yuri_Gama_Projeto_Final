@@ -21,17 +21,19 @@ Funções finais:
 - Filtros BPF / LPF (12, 6, 3, 0,5 kHz)
 - Decodificador Morse CW
 
+Hardware a ser utilizado:
+- Placa STM32F407
+- Display TFT SPI 2"
+- Encoder-Decoder KY-040
+- Módulo mínimo de áudio (conforme diagrama de pinagem)
+- ST-Link V2 (conforme tabela de pinagem)
+
 __Diagrama de blocos da Eletrônica (Funcionamento do DNR)__
 
 ![Diagrama_Blocos_DNR](https://user-images.githubusercontent.com/37374766/59629492-581cc080-9119-11e9-888f-9a164f1cd51c.jpg)
 
 __Diagrama e Tabela de pinagem__
 
-Hardware a ser utilizado:
-Placa STM32F407
-Display TFT SPI 2"
-Encoder-Decoder KY-040
-Módulo mínimo de áudio (conforme diagrama de pinagem)
-ST-Link V2 (conforme tabela de pinagem)
+
 
 __Referências__
