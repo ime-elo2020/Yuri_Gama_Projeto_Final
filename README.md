@@ -23,10 +23,12 @@ Funções finais:
 
 Hardware a ser utilizado:
 - Placa STM32F407;
+![STM32F407](https://user-images.githubusercontent.com/37374766/59639157-bb661d00-9130-11e9-821b-b05237f6f7ec.JPG)
 - Display TFT SPI 2";
 - Encoder-Decoder KY-040;
 - Módulo mínimo de áudio;
 - ST-Link V2 (conforme tabela de pinagem).
+![ST-LinkV2](https://user-images.githubusercontent.com/37374766/59639155-bb661d00-9130-11e9-893d-06e34e660bf2.JPG)
 
 >__Diagrama de blocos da Eletrônica (Funcionamento do DNR)__
 
@@ -52,4 +54,5 @@ https://www.st.com/en/development-tools/stsw-link004.html
 
 - Application note AN3997 : "Audio Playback and Recording using ST32F4Discovery", encontrado no site da ST;
 - Reference manual RM0090 - Manual de Referência da Discovery;
-- RadioDSP-DNR-Stm32f407 disponível em <https://github.com/gcallipo/RadioDSP-DNR-Stm32f407> acesso em 17 de junho de 2019.
+- RadioDSP-DNR-Stm32f407 disponível em <https://github.com/gcallipo/RadioDSP-DNR-Stm32f407> acesso em 17 de junho de 2019;
+- STM32F4-FreeRTOS disponível em <https://github.com/wangyeee/STM32F4-FreeRTOS> acesso em 17 de junho de 2019.
