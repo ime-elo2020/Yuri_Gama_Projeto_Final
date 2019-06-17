@@ -1,6 +1,6 @@
-__Redução de Ruído Digital__
+>__Redução de Ruído Digital__
 
-__Descrição do conceito com função e motivação__
+>__Descrição do conceito com função e motivação__
 
 Processamento digital de sinal (Digital Signal Processing - DSP) de áudio para receptor de rádio com recursos de redução de ruído digital (Digital Noise Reduction-DNR) baseados em subtração espectral.
 
@@ -22,18 +22,31 @@ Funções finais:
 - Decodificador Morse CW
 
 Hardware a ser utilizado:
-- Placa STM32F407
-- Display TFT SPI 2"
+- Placa STM32F407;
+- Display TFT SPI 2";
 - Encoder-Decoder KY-040
-- Módulo mínimo de áudio (conforme diagrama de pinagem)
-- ST-Link V2 (conforme tabela de pinagem)
+- Módulo mínimo de áudio (conforme diagrama de pinagem);
+- ST-Link V2 (conforme tabela de pinagem);
 
-__Diagrama de blocos da Eletrônica (Funcionamento do DNR)__
+>__Diagrama de blocos da Eletrônica (Funcionamento do DNR)__
 
 ![Diagrama_Blocos_DNR](https://user-images.githubusercontent.com/37374766/59629492-581cc080-9119-11e9-888f-9a164f1cd51c.jpg)
 
-__Diagrama e Tabela de pinagem__
+>__Diagrama e Tabela de pinagem__
+
+![Diagrama da Eletrônica com pinagem](https://user-images.githubusercontent.com/37374766/59636471-fb75d180-9129-11e9-84a0-c89447238805.jpg)
+
+|ST-Link V2|JTAG na STM32F407|
+|----------|-----------------|
+|SWDIO     |Pin7 (TMS)       |
+|GND       |Pin4 (GND)       |
+|SWCLK     |Pin9 (TCLK)      |
+|3.3V      |Pin1 (VCC)       |
+
+>__Referências__
+
+- Application note AN3997 : "Audio Playback and Recording using ST32F4Discovery", encontrado no site da ST;
+- Reference manual RM0090 - Manual de Referência da Discovery;
+- 
 
 
-
-__Referências__
