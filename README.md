@@ -1,4 +1,4 @@
-__RadioDSP-DNR__
+__Redução de Ruído Digital__
 
 __Descrição do conceito com função e motivação__
 
