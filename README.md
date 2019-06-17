@@ -23,11 +23,14 @@ Funções finais:
 
 Hardware a ser utilizado:
 - Placa STM32F407;
+
 ![STM32F407](https://user-images.githubusercontent.com/37374766/59639157-bb661d00-9130-11e9-821b-b05237f6f7ec.JPG)
+
 - Display TFT SPI 2";
 - Encoder-Decoder KY-040;
 - Módulo mínimo de áudio;
 - ST-Link V2 (conforme tabela de pinagem).
+
 ![ST-LinkV2](https://user-images.githubusercontent.com/37374766/59639155-bb661d00-9130-11e9-893d-06e34e660bf2.JPG)
 
 >__Diagrama de blocos da Eletrônica (Funcionamento do DNR)__
