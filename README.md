@@ -2,11 +2,11 @@
 
 >__Descrição do conceito com função e motivação__
 
-Processamento digital de sinal (Digital Signal Processing - DSP) de áudio para receptor de rádio com recursos de redução de ruído digital (Digital Noise Reduction-DNR) baseados em subtração espectral.
+Processamento digital de sinal (Digital Signal Processing - DSP) de áudio para receptor de rádio com recursos de redução de ruído digital (Digital Noise Reduction-DNR) baseados em subtração espectral, com emprego dos recursos de FreeRTOS da "Real Time Engineers".
 
-O objetivo desse projeto foi utilizar a arquitetura de DSP do microprocessador ARM Cortex M4 presente na placa de desenvolvimento STM32F407. Devido às extensões DSP é possível processar FFT em tempo real (bin) de 256 elementos garantindo uma boa resposta nas funcionalidades de DNR, filtragem e visualização do áudio sinal. 
+O objetivo desse projeto foi utilizar a arquitetura de DSP do microprocessador ARM Cortex M4 presente na placa de desenvolvimento STM32F407 empregando os recursos de FreeRTOS da "Real Time Engineers", a fim de possibilitar uma maior economia de energia e eficiência no processamento. Devido às extensões DSP é possível processar FFT em tempo real (bin) de 256 elementos garantindo uma boa resposta nas funcionalidades de DNR, filtragem e visualização do sinal de áudio.
 
-Para realizar a pré-filtragem do sinal ruidoso, quatro elementos filtrantes do tipo resposta ao impulso finita (_Finite Impulse Response - FIR_) foram implementados, com as seguintes características:
+Para realizar a pré-filtragem do sinal de entrada ruidoso, quatro elementos filtrantes do tipo resposta ao impulso finita (_Finite Impulse Response - FIR_) foram implementados, com as seguintes características:
 - Filtro 0: passa-alta (> 12kHz)
 - Filtro 1: passa-baixa para AM (<6kHz)
 - Filtro 2: passa-baixa para SSB (<3kHz)
@@ -47,6 +47,4 @@ Hardware a ser utilizado:
 
 - Application note AN3997 : "Audio Playback and Recording using ST32F4Discovery", encontrado no site da ST;
 - Reference manual RM0090 - Manual de Referência da Discovery;
-- 
-
-
+- RadioDSP-DNR-Stm32f407 disponível em <https://github.com/gcallipo/RadioDSP-DNR-Stm32f407> acesso em 17 de junho de 2019.
