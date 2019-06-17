@@ -17,6 +17,8 @@ DNR com dois estágios (Filtros espectrais de subtração + adaptativos LMS)
 Filtros BPF / LPF (12, 6, 3, 0,5 kHz)
 Decodificador Morse CW
 
+![Diagrama_Blocos_DNR](https://user-images.githubusercontent.com/37374766/59629492-581cc080-9119-11e9-888f-9a164f1cd51c.jpg)
+
 **Diagrama de blocos da eletrônica;
 
 **Diagrama/tabela de pinagem;
