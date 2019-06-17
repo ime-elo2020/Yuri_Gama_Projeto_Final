@@ -1,6 +1,6 @@
-##RadioDSP-DNR
+**RadioDSP-DNR
 
-#Descrição do conceito com função e motivação
+**Descrição do conceito com função e motivação
 
 Processamento digital de sinal (Digital Signal Processing - DSP) de áudio para receptor de rádio com recursos de redução de ruído digital (Digital Noise Reduction-DNR) baseados em subtração espectral.
 
@@ -17,11 +17,11 @@ DNR com dois estágios (Filtros espectrais de subtração + adaptativos LMS)
 Filtros BPF / LPF (12, 6, 3, 0,5 kHz)
 Decodificador Morse CW
 
-#Diagrama de blocos da eletrônica;
+**Diagrama de blocos da eletrônica;
 
-#Diagrama/tabela de pinagem;
+**Diagrama/tabela de pinagem;
 
-#Fluxograma do firmware;
+**Fluxograma do firmware;
 
 
 
