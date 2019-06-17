@@ -1,6 +1,6 @@
-__RadioDSP-DNR
+__RadioDSP-DNR__
 
-__Descrição do conceito com função e motivação
+__Descrição do conceito com função e motivação__
 
 Processamento digital de sinal (Digital Signal Processing - DSP) de áudio para receptor de rádio com recursos de redução de ruído digital (Digital Noise Reduction-DNR) baseados em subtração espectral.
 
@@ -21,11 +21,11 @@ Funções finais:
 - Filtros BPF / LPF (12, 6, 3, 0,5 kHz)
 - Decodificador Morse CW
 
-__Diagrama de blocos da Eletrônica (Funcionamento do DNR)
+__Diagrama de blocos da Eletrônica (Funcionamento do DNR)__
 
 ![Diagrama_Blocos_DNR](https://user-images.githubusercontent.com/37374766/59629492-581cc080-9119-11e9-888f-9a164f1cd51c.jpg)
 
-__Diagrama e Tabela de pinagem
+__Diagrama e Tabela de pinagem__
 
 Hardware a ser utilizado:
 Placa STM32F407
@@ -34,4 +34,4 @@ Encoder-Decoder KY-040
 Módulo mínimo de áudio (conforme diagrama de pinagem)
 ST-Link V2 (conforme tabela de pinagem)
 
-__Referências
+__Referências__
